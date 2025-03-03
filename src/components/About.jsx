@@ -10,12 +10,12 @@ const About = () => {
       <div className="about-content">
         <h2 className="heading">About <span>Me</span></h2>
         <p>
-          Innovative Freelance Front-End Developer with 3+ Years at Upwork
-          Seeking New Challenges | Bachelor of Informatics Grad | Proficient in
-          HTML, CSS, JS, PHP, MongoDB, Express.js, React, Node.js | Eager to
-          Bring Problem-Solving and Critical Thinking Skills to Your Team.
+        Informatics Engineering graduate with experience in backend development and data science. Expertise in building systems
+        using Flask and Laravel, and performing data analysis with Python. Experienced in developing chatbots based on Natural
+        Language Processing and building information systems using Laravel. Interested in REST API development, database
+        management, and machine learning implementation for data-driven applications. Passionate about learning the newest
+        technologies and applying them to innovative projects.
         </p>
-        <a href="#" className="btn">Read More</a>
       </div>
     </section>
   );

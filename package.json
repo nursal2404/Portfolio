@@ -1,5 +1,6 @@
 {
   "name": "portofolio",
+  "homepage": "https://nursal2404.github.io/Portfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -8,10 +9,28 @@
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-scripts": "5.0.1",
-    "scrollreveal": "^4.0.9"
+    "scrollreveal": "^4.0.9",
+    "typed.js": "^2.1.0"
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build"
+    "build": "react-scripts build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
